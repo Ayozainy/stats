@@ -1,58 +1,64 @@
 
 
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+
 body{
     background-color: hsl(233, 47%, 7%);
     
 }
 
+.col-md-6{
+    font-family: 'Inter', sans-serif;
+    
+  
+}
+
 .inner-container{
     background-color: hsl(244, 38%, 16%);
     width:70%;
-    margin:auto;
-    
+    margin:auto ;
+    padding: 4%;
+    margin-top: 10%;
 }
 
-.outer-container{
-    display: flex;
-   justify-content: center;
-   align-items: center;
-}
-
-.list{
-display:inline-flex;
-padding-top:40px;
-margin-right:40px;
-}
 
 .last-para{
-    margin: 1.5rem;
+    
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.7rem;
 }
+
+
+h2{
+    color:hsl(0, 0%, 100%);
+    font-weight: bold;
+    }
 
 .heading{
-    padding-top: 3%;
-    padding-left: 3%;
-    padding-bottom: 3%;
+    padding-top:7%;
 }
-h2{
-   
-    color:hsl(0, 0%, 100%);}
-
 p{
     color:hsla(0, 0%, 100%, 0.75);
     margin-top: 5%;
-}
+    font-family: 'Inter', sans-serif;
+font-size: 0.8rem;}
 
 .showcase{
-   background-image: url("image-header-desktop.jpg");
+   background-image: url("../images/image-header-desktop.jpg");
     width:100%;
     height:100%;
- 
+    padding: 0%;
+  
 }
 
 .showcase div {
     width: 100%;
     height: 100%;
     background-color: rgba(160, 32, 240, 0.2);
+    padding: 0%;
+   
   }
 
 .blue{
@@ -62,10 +68,13 @@ p{
 
 
 .head{
-margin: 1.5rem;
+font-family: 'Inter', sans-serif;
+font-size: 1rem;
+margin-top: 40px;
 }
 
-@media  (max-width:768px){
+
+@media  (max-width:720px){
     body{
         text-align: center;
     }
@@ -77,8 +86,4 @@ margin: 1.5rem;
     text-align: center;
     padding-top:-10%;}
 
-img{
-    float: clear;
-}
-
-}
+    }
