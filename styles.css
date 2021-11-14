@@ -10,17 +10,18 @@ body{
 }
 
 .col-md-6{
-    font-family: 'Inter', sans-serif;
-    
-  
+    font-family: 'Inter', sans-serif;  
+}
+
+.outer-container{
+height: 100vh;
+display:flex;
 }
 
 .inner-container{
     background-color: hsl(244, 38%, 16%);
     width:70%;
     margin:auto ;
-    padding: 4%;
-    margin-top: 10%;
 }
 
 
@@ -38,6 +39,10 @@ h2{
 
 .heading{
     padding-top:7%;
+}
+
+.top-row{
+padding:4%;
 }
 p{
     color:hsla(0, 0%, 100%, 0.75);
